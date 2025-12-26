@@ -1,0 +1,14 @@
+image:
+  repository: gvenzl/oracle-xe
+  tag: 21.3.0
+
+oracle:
+  password: oracle
+  appUser: appuser
+  appPassword: apppassword
+
+persistence:
+  size: 5Gi
+
+service:
+  port: 1521
